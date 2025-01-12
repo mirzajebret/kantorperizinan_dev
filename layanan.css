@@ -157,7 +157,10 @@
 }
 
 .service-banner {
-    background: linear-gradient(135deg, #004b8d, #0073e6);
+    border-top: solid 2.5px rgb(236, 192, 47);
+    border-bottom: solid 2.5px rgb(236, 192, 47);
+
+    background-color:#2A3A54;
     color: white;
     padding: 60px 30px;
     text-align: center;
@@ -185,7 +188,7 @@
 .cta-banner-button {
     font-size: 1.2rem;
     background-color: #ffcc00;
-    color: #004b8d;
+    color: #021425;
     padding: 15px 30px;
     text-transform: uppercase;
     border-radius: 5px;
@@ -201,11 +204,11 @@
 
 @media (max-width: 768px) {
     .service-banner {
-        padding: 40px 20px;
+        padding: 30px 20px;
     }
 
     .banner-heading {
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
 
     .banner-description {
@@ -247,7 +250,7 @@
         margin-bottom: 0px;
     }
     .banner-heading{
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     .cta-service-button{
     display: block; 
@@ -267,7 +270,7 @@
     text-align: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color:rgb(8, 44, 116);
+    color:rgb(255, 255, 255);
     margin-bottom: 40px;
 }
 
