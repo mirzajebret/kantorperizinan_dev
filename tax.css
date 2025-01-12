@@ -1,0 +1,109 @@
+body {
+    position: relative;
+    background-image: url('https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/bg/test-bg1.JPG');
+    background-size:contain ;
+    background-position: center center;
+}
+.tax-services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tax-services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tax-services h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.subheading2 {
+    font-weight: 300;
+}
+.tax-services p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.tax-services .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tax-services .card {
+    background: transparent;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* 4 cards per row */
+    text-align: center;
+    padding: 0;
+    transition: transform 0.3s;
+}
+
+.tax-services .card.half-width {
+    width: calc(50% - 20px); /* 2 cards per row */
+}
+
+.tax-services .card.third-width {
+    width: calc(33.33% - 20px); /* 3 cards per row */
+}
+
+.tax-services .card:hover {
+    transform: translateY(-5px);
+}
+
+.tax-services .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tax-services .card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tax-services .card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tax-services .card.half-width {
+        width: 100%;
+    }
+    .tax-services .card.third-width {
+        width: 100%;
+    }
+    .tax-services h1 {
+        font-size: 2rem;
+    }
+
+    .tax-services p {
+        font-size: 1rem;
+    }
+
+    .tax-services .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .tax-services h1 {
+        font-size: 1.5rem;
+    }
+
+    .tax-services p {
+        font-size: 0.9rem;
+    }
+
+    .tax-services .card {
+        width: 100%;
+    }
+}

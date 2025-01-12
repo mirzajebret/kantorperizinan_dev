@@ -1,0 +1,264 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Blinker", sans-serif;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    background-image: url('https://github.com/mirzajebret/indoadminsolution/blob/main/img/bg/XBBG.PNG?raw=true');
+    background-size: contain;
+    background-position: center center;
+    backdrop-filter: brightness(1.4); 
+}
+
+
+h1 {
+  font-size: 36px;  
+}
+h2 {
+  font-size: 22px;  
+}
+p {
+  font-size: 16px;  
+}
+  
+
+
+.hubungi-kami .card img{
+    background-color: #2e3646;
+    padding:10px;
+    position: absolute;
+    width: 55px;
+    height: auto;
+    border: 2px solid gold; 
+    top: -30px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.services {
+    text-align: center;
+}
+
+.services h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #171717;
+
+}
+.services h1 {
+    font-weight: 600;
+    color: #fff;
+}
+.services p {
+    margin-bottom: 30px;
+    color: #171717;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto; 
+    gap: 20px;
+    max-width: 1800px;
+}
+
+.card {
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+    transform: translateY(20px); 
+    opacity: 0; 
+    background-color: #2e3646;
+    width: 18%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid gold; /* Add this line */
+    
+}
+.layanankami h2{
+    color: #fff;
+    padding: 20px;
+}
+.card.visible {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.responsive-image {
+    width: 50%;
+    height: auto;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.single-image {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    height: 70px;
+    margin: 20px auto; /* Center the image horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-image img {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    object-fit: contain; /* Ensure the image covers the div */
+}
+.gold-gradient-line {
+    height: 5px;
+    background: linear-gradient(to right, #FFD700, #FFA500);
+    margin: 0 auto; /* Center the line horizontally */
+    position: relative;
+    top: -2px; /* Adjust to ensure it is exactly between the sections */
+    width: 100%;
+}
+@media (min-height: 900px) {
+.gold-gradient-line{
+    top: -60px; 
+}
+}
+@media (max-width: 768px) {
+
+    .responsive-image {
+        width: 100%;
+    }
+
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .services h1{
+        font-size: 30px;
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.carousel-card {
+    opacity: 1;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    animation: slideLeft 0.5s forwards;
+}
+
+.carousel-card.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.tentang-kami {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    background: rgba(46, 54, 70, 0.7);
+
+}
+
+
+
+.tentang-kami-content h2 {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.tentang-kami-content img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 280px;
+}
+.tentang-kami-content {
+    max-width: 600px;
+    text-align: justify;
+}
+
+.tentang-kami-content p {
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+}
+
+.our-clients-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.our-clients-section h3 {
+    font-size: 2rem;
+    color: white;
+}
+
+.clients-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.clients-logos img {
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.clients-logos img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .clients-logos img {
+        max-width: 60px;
+    }
+    .clients-logos  {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tentang-kami {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tentang-kami-content {
+        max-width: 100%;
+    }
+
+    .tentang-kami-image img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

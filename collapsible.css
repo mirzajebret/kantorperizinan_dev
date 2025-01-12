@@ -1,0 +1,37 @@
+.collapsible {
+    background-color: #2e3646;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.web-services .card{
+    max-width: 350px;
+}
+.collapsible p{
+    color: gold;
+    display: none;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background: transparent;
+}
+
+@media (max-width: 768px) {
+    .collapsible p{
+        display: block;
+    }
+    .collapsible {
+        cursor: pointer;
+    }
+
+}

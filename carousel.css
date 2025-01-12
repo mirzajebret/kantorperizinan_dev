@@ -1,0 +1,89 @@
+.carousel-container h1 {
+    font-weight: 600;
+}
+
+
+.carousel-container {
+    padding: 20px 0;
+    text-align:center;
+    position: relative;
+    width: 100%; 
+    max-width: 1400px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto; 
+    align-items: center;
+    text-align: center;
+    
+}
+
+.carousel-inner {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    transition: transform 0.5s ease; 
+    justify-content: center;
+}
+
+.carousel-card {
+    display: none;
+    margin: 10px;
+    flex: 0 0 auto;     
+    text-align: center;
+    position: relative;
+}
+
+.carousel-card.active {
+    display: block;
+}
+
+.carousel-card img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-card p {
+    padding-top: 10px;
+    font-size: 1.0em;
+    color: #000;
+    position: relative;
+    z-index: 1; 
+}
+
+/* Untuk layar kecil (mobile) */
+@media (max-width: 768px) {
+    .carousel-container {
+    padding: 20px;
+    }
+    .carousel-card {
+        width: calc(100% - 10px); /* Lebar penuh dengan margin kecil */
+    }
+    .carousel-card img {
+        width: 100%;
+    }
+/*     .carousel-container{
+        padding: 50px 0 50px 20px;
+    } */
+}
+
+/* Untuk layar tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .carousel-card {
+        width: calc(45% - 20px); /* Dua card dalam satu baris */
+    }
+}
+
+/* Untuk layar desktop */
+@media (min-width: 1025px) {
+    .carousel-card {
+        width: calc(30% - 20px); /* Tiga card dalam satu baris */
+    }
+}
