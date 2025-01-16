@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mirzajebret/kantorperizinan_dev/refs/heads/main/ASSETS/TEST-LOGO.png">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/mirzajebret/kantorperizinan_dev/refs/heads/main/ASSETS/TEST-LOGO.png">
+    <title>Jasa Pendirian PT - KantorPerizinan.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="layanan.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="collapsible.css">
+    <link rel="stylesheet" href="hero-carousel.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="tax.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+    <button class="collapsible tax-services">
+        <img src="https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/ICONS/legalico-5.png" alt="Icon" class="collapsible-icon">
+        <h1>Pendirian Koperasi</h1>
+    </button>
+    <div class="content" style="display: block;">
+        <section class="pngcardwrapper">
+            <div class="image-gallery">
+                <!-- PT -->
+                <a href="https://wa.me/6281120027888">
+                    <img src="https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/card/regular/NEW-K.png" alt="Card 1" class="card-image">
+                </a>
+                <a href="https://wa.me/6281120027888">
+                    <img src="https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/card/regular/NEW-KL.png" alt="Card 1" class="card-image">
+                </a>
+               
+            </div>
+        </section>
+    </div>
+    <div class="p-10 service-description">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-xl font-bold text-center mb-4 text-yellow-300">Apa Itu Koperasi?</h1>
+            <p class="mb-4 text-justify">
+                Koperasi adalah badan usaha yang dimiliki dan dijalankan oleh anggotanya dengan tujuan untuk meningkatkan kesejahteraan anggota, melalui kegiatan ekonomi yang saling menguntungkan. Koperasi berfokus pada prinsip-prinsip gotong-royong dan keadilan, serta tidak berorientasi pada keuntungan pribadi.
+            </p>
+            <h2 class="text-xl font-semibold text-yellow-300 mb-2">Landasan Hukum Koperasi</h2>
+            <p class="mb-4">
+                Dasar hukum pendirian koperasi di Indonesia diatur dalam Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian, serta peraturan terkait lainnya, yang mengatur keberadaan koperasi sebagai badan hukum yang sah.
+            </p>
+            <h2 class="text-xl font-semibold text-yellow-300 mb-2">Jenis Koperasi</h2>
+            <ul class="list-disc ml-6 mb-4">
+                <li><strong>Koperasi Konsumsi:</strong> Koperasi yang menyediakan barang atau jasa untuk kebutuhan sehari-hari anggota.</li>
+                <li><strong>Koperasi Simpan Pinjam:</strong> Koperasi yang mengelola simpanan anggota dan memberikan pinjaman kepada anggota.</li>
+                <li><strong>Koperasi Produksi:</strong> Koperasi yang menghasilkan barang atau jasa untuk dijual atau diproduksi oleh anggotanya.</li>
+            </ul>
+            <h2 class="text-xl font-semibold text-yellow-300 mb-2">Dokumen yang Diperlukan untuk Pendirian Koperasi</h2>
+            <div class="p-4 border-2 border-yellow-300 rounded-md">
+            <ul class="list-disc ml-6 mb-4">
+                <li>Salinan atau foto KTP masing-masing pendiri</li>
+                <li>Salinan atau foto NPWP masing-masing pendiri</li>
+                <li>Anggaran Dasar Koperasi (AD Koperasi)</li>
+                <li>Surat Keterangan Domisili Koperasi</li>
+                <li>Alamat lengkap tempat kegiatan</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-banner">
+        <h1 class="banner-heading">Konsultasi Gratis!</h1>
+        <a href="https://wa.me/6281120027888?text=Halo,%20saya%20ingin%20mengetahui%20informasi%20lebih%20lanjut%20tentang%20Layanan%20Legalitas%20Koperasi" class="cta-banner-button">Hubungi Kami Sekarang</a>
+    </div>
+    
+    <div class="mx-auto accordion-faq">
+        <h2 class="text-2xl md:text-3xl font-bold text-center pb-5 title text-yellow-300">PERTANYAAN YANG SERING DIAJUKAN</h2>
+    
+        <div class="border-b py-4">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAccordion(1)">
+                <h2 class="text-2xl md:text-3xl font-semibold">Ketentuan Pemberian Nama Koperasi</h2>
+                <button class="text-black">
+                    <i class="fas fa-chevron-down" id="icon-1"></i>
+                </button>
+            </div>
+            <div class="mt-4 p-4 rounded hidden" id="content-1">
+                <p>Nama Koperasi harus unik dan tidak boleh sama dengan nama koperasi atau badan hukum lainnya yang sudah terdaftar di Kementerian Koperasi dan UKM.</p>
+            </div>
+        </div>
+        <div class="border-b py-4">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAccordion(2)">
+                <h2 class="text-2xl md:text-3xl font-semibold">Prosedur Pendirian Koperasi</h2>
+                <button class="text-black">
+                    <i class="fas fa-chevron-down" id="icon-2"></i>
+                </button>
+            </div>
+            <div class="mt-4 p-4 rounded hidden" id="content-2">
+                <p>Pendirian Koperasi dilakukan dengan membuat Anggaran Dasar (AD Koperasi) di hadapan notaris, kemudian disahkan oleh Kementerian Koperasi dan UKM.</p>
+            </div>
+        </div>
+        <div class="border-b py-4">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAccordion(3)">
+                <h2 class="text-2xl md:text-3xl font-semibold">Keuntungan dan Risiko Koperasi</h2>
+                <button class="text-black">
+                    <i class="fas fa-chevron-down" id="icon-3"></i>
+                </button>
+            </div>
+            <div class="mt-4 p-4 rounded hidden" id="content-3">
+                <p>
+                    <strong>Keuntungan:</strong>
+                    <ul class="list-disc ml-6 mb-4">
+                        <li>Dapat menyediakan layanan atau barang dengan harga yang lebih terjangkau bagi anggota.</li>
+                        <li>Memberikan kesempatan kepada anggota untuk berpartisipasi dalam pengelolaan koperasi.</li>
+                    </ul>
+                    <strong>Risiko:</strong>
+                    <ul class="list-disc ml-6 mb-4">
+                        <li>Jika tidak dikelola dengan baik, koperasi dapat mengalami kerugian finansial yang membebani anggota.</li>
+                        <li>Perbedaan kepentingan antar anggota dapat menyebabkan konflik internal dalam koperasi.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+
+    <script>
+        function toggleAccordion(id) {
+            const contents = document.querySelectorAll('[id^="content-"]');
+            const icons = document.querySelectorAll('[id^="icon-"]');
+            
+            contents.forEach((content, index) => {
+                const contentId = index + 1;
+                const icon = document.getElementById(`icon-${contentId}`);
+                if (contentId === id) {
+                    if (content.classList.contains('hidden')) {
+                        content.classList.remove('hidden');
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    } else {
+                        content.classList.add('hidden');
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    }
+                } else {
+                    content.classList.add('hidden');
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        }
+    </script>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+    <script src="script.js"></script>
+    <script src="collapsible.js"></script>
+</body>
+</html>

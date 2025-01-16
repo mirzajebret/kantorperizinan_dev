@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/mirzajebret/kantorperizinan_dev/refs/heads/main/ASSETS/TEST-LOGO.png">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/mirzajebret/kantorperizinan_dev/refs/heads/main/ASSETS/TEST-LOGO.png">
+    <title>Jasa Pendirian PT - KantorPerizinan.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="layanan.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="collapsible.css">
+    <link rel="stylesheet" href="hero-carousel.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="tax.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+    <button class="collapsible tax-services">
+        <img src="https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/ICONS/legalico-6.png" alt="Icon" class="collapsible-icon">
+        <h1>Pendirian Perkumpulan</h1>
+    </button>
+    <div class="content" style="display: block;">
+        <section class="pngcardwrapper">
+            <div class="image-gallery">
+                <!-- PT -->
+                <a href="https://wa.me/6281120027888">
+                    <img src="https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/card/regular/NEW-PKR.png" alt="Card 1" class="card-image">
+                </a>
+                <a href="https://wa.me/6281120027888">
+                    <img src="https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/card/regular/NEW-PKL.png" alt="Card 2" class="card-image">
+                </a>
+               
+            </div>
+        </section>
+    </div>
+    <div class="p-10 service-description">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-xl font-bold text-center mb-4 text-yellow-300">Apa Itu Perkumpulan?</h1>
+            <p class="mb-4 text-justify">
+                Perkumpulan adalah badan hukum yang didirikan oleh dua orang atau lebih untuk tujuan tertentu, baik yang bersifat sosial, keagamaan, keilmuan, maupun kegiatan lainnya. Perkumpulan dapat berbentuk Perkumpulan Berbadan Hukum (PBH) atau Perkumpulan Tidak Berbadan Hukum (PTBH) tergantung pada pengesahannya.
+            </p>
+            <h2 class="text-xl font-semibold text-yellow-300 mb-2">Landasan Hukum Perkumpulan</h2>
+            <p class="mb-4">
+                Dasar hukum perkumpulan yang berbadan hukum diatur dalam Kitab Undang-Undang Hukum Perdata (KUHPerdata) serta diakui secara resmi oleh Kementerian Hukum dan Hak Asasi Manusia (Kemenkumham).
+            </p>
+            <h2 class="text-xl font-semibold text-yellow-300 mb-2">Jenis Perkumpulan</h2>
+            <ul class="list-disc ml-6 mb-4">
+                <li><strong>Perkumpulan Berbadan Hukum (PBH):</strong> Harus didaftarkan dan disahkan oleh Kemenkumham, memiliki legalitas formal.</li>
+                <li><strong>Perkumpulan Tidak Berbadan Hukum (PTBH):</strong> Tidak perlu didaftarkan dan lebih bersifat informal.</li>
+            </ul>
+            <h2 class="text-xl font-semibold text-yellow-300 mb-2">Dokumen yang Diperlukan untuk Pendirian Perkumpulan</h2>
+            <div class="p-4 border-2 border-yellow-300 rounded-md">
+            <ul class="list-disc ml-6 mb-4">
+                <li>Salinan atau foto KTP masing-masing pendiri</li>
+                <li>Salinan atau foto NPWP masing-masing pendiri</li>
+                <li>Anggaran Dasar dan Anggaran Rumah Tangga (AD/ART) Perkumpulan</li>
+                <li>Surat Keterangan Domisili Usaha (SKDU) jika diperlukan</li>
+                <li>Alamat lengkap tempat kegiatan</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-banner">
+        <h1 class="banner-heading">Konsultasi Gratis!</h1>
+        <a href="https://wa.me/6281120027888?text=Halo,%20saya%20ingin%20mengetahui%20informasi%20lebih%20lanjut%20tentang%20Layanan%20Legalitas%20Badan%20Usaha%20dan%20Bisnis" class="cta-banner-button">Hubungi Kami Sekarang</a>
+    </div>
+    
+    <div class="mx-auto accordion-faq">
+        <h2 class="text-2xl md:text-3xl font-bold text-center pb-5 title text-yellow-300">PERTANYAAN YANG SERING DIAJUKAN</h2>
+    
+        <div class="border-b py-4">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAccordion(1)">
+                <h2 class="text-2xl md:text-3xl font-semibold">Ketentuan Pemberian Nama Perkumpulan</h2>
+                <button class="text-black">
+                    <i class="fas fa-chevron-down" id="icon-1"></i>
+                </button>
+            </div>
+            <div class="mt-4 p-4 rounded hidden" id="content-1">
+                <p>Nama Perkumpulan harus unik dan tidak boleh sama dengan nama organisasi atau badan hukum lain yang telah terdaftar di Kemenkumham.</p>
+            </div>
+        </div>
+        <div class="border-b py-4">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAccordion(2)">
+                <h2 class="text-2xl md:text-3xl font-semibold">Prosedur Pendirian Perkumpulan</h2>
+                <button class="text-black">
+                    <i class="fas fa-chevron-down" id="icon-2"></i>
+                </button>
+            </div>
+            <div class="mt-4 p-4 rounded hidden" id="content-2">
+                <p>Pendirian Perkumpulan Berbadan Hukum dilakukan melalui pembuatan Anggaran Dasar di hadapan notaris dan pengesahan oleh Kemenkumham. Sedangkan, untuk Perkumpulan Tidak Berbadan Hukum cukup berdasarkan kesepakatan pendiri.</p>
+            </div>
+        </div>
+        <div class="border-b py-4">
+            <div class="flex justify-between items-center cursor-pointer" onclick="toggleAccordion(3)">
+                <h2 class="text-2xl md:text-3xl font-semibold">Keuntungan dan Risiko Perkumpulan</h2>
+                <button class="text-black">
+                    <i class="fas fa-chevron-down" id="icon-3"></i>
+                </button>
+            </div>
+            <div class="mt-4 p-4 rounded hidden" id="content-3">
+                <p>
+                    <strong>Keuntungan:</strong>
+                    <ul class="list-disc ml-6 mb-4">
+                        <li>Memiliki tujuan yang jelas sesuai kesepakatan para anggotanya.</li>
+                        <li>Dapat memiliki aset atau kekayaan yang terpisah untuk operasional.</li>
+                    </ul>
+                    <strong>Risiko:</strong>
+                    <ul class="list-disc ml-6 mb-4">
+                        <li>Jika tidak berbadan hukum, anggota dapat bertanggung jawab secara pribadi atas kewajiban perkumpulan.</li>
+                        <li>Pengelolaan yang kurang terorganisir jika tidak memiliki struktur formal.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+    <script>
+        function toggleAccordion(id) {
+            const contents = document.querySelectorAll('[id^="content-"]');
+            const icons = document.querySelectorAll('[id^="icon-"]');
+            
+            contents.forEach((content, index) => {
+                const contentId = index + 1;
+                const icon = document.getElementById(`icon-${contentId}`);
+                if (contentId === id) {
+                    if (content.classList.contains('hidden')) {
+                        content.classList.remove('hidden');
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    } else {
+                        content.classList.add('hidden');
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    }
+                } else {
+                    content.classList.add('hidden');
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        }
+    </script>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+    <script src="script.js"></script>
+    <script src="collapsible.js"></script>
+</body>
+</html>

@@ -9,11 +9,25 @@
 .image-gallery {
     padding: 40px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjusts column size based on screen width */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
     gap: 20px; 
     max-width: 1400px; 
     width: 100%;
+
   }
+.service-page .more-info {
+    padding: 0px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    animation: pulse 1.5s infinite;
+}
+.service-page a{
+    text-decoration: none;
+}
   
   .card-image {
     padding: 20px;
@@ -34,6 +48,7 @@
 
 .service-page {
     padding: 50px;
+    align-items: center;
     text-align: center;
 }
 
@@ -129,14 +144,8 @@
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
-
-
 }
 
-.cta-service-button:hover {
-    background-color: #1ebe5f; 
-}
 
 .subheading2 {
     padding-top: 40px;
@@ -150,34 +159,26 @@
 .subheading2::after {
     content: '';
     display: block;
-    width: 50%; /* Width of the underline */
-    height: 2px; /* Thickness of the underline */
-    background: gold; /* Color of the underline */
-    margin: 10px auto 0; /* Center the underline */
+    width: 50%; 
+    height: 2px;
+    background: gold; 
+    margin: 10px auto 0; 
 }
 
 .service-banner {
-    border-top: solid 2.5px rgb(236, 192, 47);
-    border-bottom: solid 2.5px rgb(236, 192, 47);
-
-    background-color:#2A3A54;
+    border: solid 2.5px rgb(236, 192, 47);
+    background: linear-gradient(203deg, rgba(37, 63, 105, 0.6), rgba(42, 58, 84, 1.0));
     color: white;
-    padding: 60px 30px;
+    padding: 30px;
     text-align: center;
-    border-radius: 15px;
-    margin-bottom: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.service-banner:hover {
-    transform: translateY(-5px);
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .banner-heading {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .banner-description {
@@ -187,25 +188,20 @@
 
 .cta-banner-button {
     font-size: 1.2rem;
-    background-color: #ffcc00;
-    color: #021425;
+    background: linear-gradient(45deg, #FFD700, #eee2b8, #ffbb00);
+    color: #072a49;
     padding: 15px 30px;
     text-transform: uppercase;
     border-radius: 5px;
     font-weight: 700;
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .cta-banner-button:hover {
     background-color: #ff9900;
-    color: white;
 }
 
 @media (max-width: 768px) {
-    .service-banner {
-        padding: 30px 20px;
-    }
 
     .banner-heading {
         font-size: 1.9rem;
@@ -219,6 +215,10 @@
         font-size: 0.9rem;
         padding: 10px 20px;
     }
+    .service-page .more-info{
+
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -230,27 +230,24 @@
         }
         .image-gallery {
             padding:0;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusts column size based on screen width */
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
         }    
         
 }
 
 @media (max-width: 768px) {
     .service-page {
-        padding: 30px; /* Adjust padding */
+        padding: 30px; 
     }
 
     .card {
-        width: 90%; /* Slightly smaller width */
+        width: 90%; 
     }
     .banner-description{
         display: none;
     }
     .service-banner{
-        margin-bottom: 0px;
-    }
-    .banner-heading{
-        padding-bottom: 10px;
+        margin-bottom: 15px;
     }
     .cta-service-button{
     display: block; 
@@ -268,21 +265,21 @@
 
 .subheading2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 700;
-    color:rgb(255, 255, 255);
+    color: #fff;
     margin-bottom: 40px;
 }
 
 .service-list2 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
 }
 
 .service-item2 {
-    background: linear-gradient(203deg, black, transparent);
+    background: linear-gradient(203deg, #2A3A54, transparent);
     border: 2px solid gold;
     border-radius: 10px;
     padding: 30px;
@@ -319,13 +316,13 @@
 
 @media (max-width: 1200px) {
     .service-list2 {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust columns for medium screens */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     }
     .service-info2 h4 {
-        font-size: 1.2rem; /* Smaller font size */
+        font-size: 1.2rem;
     }
     .service-info2 p {
-        font-size: 0.9rem; /* Smaller font size */
+        font-size: 0.9rem; 
     }
 }
 
@@ -337,7 +334,7 @@
         margin: 0;
     }
     .service-list2 {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust columns for small screens */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
         gap: 5px;
     }
     .service-icon2 {
@@ -357,19 +354,29 @@
     .service-page {
         padding: 0;
     }
-    .service-banner {
-        border-radius: 0;
-    }
+
     .service-info2 h4 {
-        font-size: 1rem; /* Smaller font size */
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 600px) {
     .service-list2 {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust columns for very small screens */
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
     }
     .service-info2 h4 {
-        font-size: 0.9rem; /* Smaller font size */
+        font-size: 0.9rem; 
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
     }
 }
