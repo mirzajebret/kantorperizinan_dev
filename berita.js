@@ -1,123 +1,6 @@
 const beritaTerkait = [
     {
-        kategori: "LEGALITAS",
-        judul: "Manfaat dan Pentingnya Legalitas Bisnis",
-        views: "850",
-        img: "https://cowenpartners.com/wp-content/uploads/2022/05/AdobeStock_229719876-1130x660.jpeg",
-        deskripsi: `
-
-            Mendirikan bisnis bukan hanya soal menjual produk atau jasa, tetapi juga tentang membangun fondasi yang kokoh untuk keberlanjutan usaha. Salah satu langkah awal yang krusial adalah memastikan legalitas bisnis Anda terpenuhi. Sayangnya, banyak pelaku usaha yang masih mengabaikan pentingnya legalitas, padahal ini adalah kunci untuk menjalankan bisnis yang aman, terpercaya, dan berkembang. Berikut adalah penjelasan menarik tentang manfaat dan pentingnya legalitas bisnis yang perlu Anda pahami. <br><br>
-
-            Apa Itu Legalitas Bisnis?<br>
-
-            Legalitas bisnis adalah pengakuan resmi dari pemerintah terhadap keberadaan usaha Anda. Ini mencakup dokumen seperti Nomor Induk Berusaha (NIB), Surat Izin Usaha, serta akta pendirian badan usaha seperti PT, CV, atau bentuk usaha lainnya. Dengan memenuhi legalitas, bisnis Anda tidak hanya diakui secara hukum, tetapi juga mendapatkan berbagai keuntungan yang mendukung pertumbuhan usaha.<br><br>
-
-            Manfaat Legalitas Bisnis<br>
-                1.	Perlindungan Hukum<br>
-            Dengan legalitas, bisnis Anda terlindungi dari potensi konflik hukum. Baik itu sengketa dengan pelanggan, mitra bisnis, maupun pemerintah, legalitas memberikan kepastian dan landasan yang kuat untuk menyelesaikan masalah. Anda juga dapat membuat kontrak yang sah di mata hukum, melindungi hak dan kewajiban Anda.<br><br>
-                2.	Meningkatkan Kepercayaan Konsumen dan Mitra<br>
-            Konsumen cenderung lebih percaya pada bisnis yang legal karena menunjukkan komitmen terhadap transparansi dan integritas. Mitra bisnis besar, seperti perusahaan multinasional atau lembaga keuangan, juga hanya bekerja dengan entitas yang memiliki dokumen resmi.<br><br>
-                3.	Kemudahan Mengakses Pendanaan<br>
-            Jika bisnis Anda memerlukan pinjaman bank atau ingin menarik investor, legalitas adalah syarat utama. Bank dan investor hanya mendukung usaha yang memiliki dokumen resmi karena ini menunjukkan bisnis Anda dapat dipercaya.<br><br>
-                4.	Akses ke Program Pemerintah<br>
-            Pemerintah sering menyediakan berbagai insentif dan program pendampingan untuk usaha yang memiliki legalitas. Misalnya, subsidi pajak, pelatihan, atau bantuan modal untuk pengembangan usaha.<br>
-                5.	Mempermudah Ekspansi Bisnis<br><br>
-            Dengan legalitas, Anda dapat membuka cabang baru, menjalin kerja sama dengan mitra, dan melakukan ekspansi tanpa hambatan. Bisnis yang diakui secara hukum memiliki kebebasan untuk berkembang tanpa batas.<br><br>
-                6.	Keamanan Operasional<br>
-            Usaha tanpa legalitas rawan ditutup oleh pemerintah karena dianggap ilegal. Dengan memenuhi legalitas, Anda tidak perlu khawatir menghadapi razia atau denda administratif yang merugikan.<br><br>
-
-            Mengapa Legalitas Itu Penting?<br>
-                1.	Kepastian Hukum<br>
-            Legalitas memberikan dasar hukum yang jelas untuk setiap aktivitas bisnis Anda. Hal ini penting untuk melindungi usaha Anda dari risiko seperti tuntutan hukum, sengketa kontrak, atau pelanggaran regulasi.<br><br>
-                2.	Keberlanjutan Bisnis<br>
-            Usaha yang legal memiliki peluang lebih besar untuk bertahan dalam jangka panjang. Legalitas membantu Anda menjalankan bisnis dengan aman, tanpa ancaman pembubaran oleh pihak berwenang.<br><br>
-                3.	Kontribusi pada Perekonomian<br>
-            Dengan legalitas, Anda berkontribusi pada pembangunan negara melalui pembayaran pajak dan penciptaan lapangan kerja. Bisnis Anda menjadi bagian dari ekosistem ekonomi yang sehat.<br><br>
-                4.	Meningkatkan Reputasi<br>
-            Legalitas mencerminkan profesionalisme. Ketika bisnis Anda memiliki izin resmi, pelanggan dan mitra bisnis akan melihat usaha Anda sebagai entitas yang serius dan terpercaya.<br><br>
-
-            Bagaimana Cara Memenuhi Legalitas Bisnis?<br>
-                1.	Pilih Bentuk Usaha yang Tepat<br>
-            Tentukan apakah Anda akan mendirikan PT, CV, koperasi, atau bentuk usaha lainnya, sesuai dengan kebutuhan dan skala bisnis.<br><br>
-                2.	Buat Akta Pendirian di Notaris<br>
-            Untuk badan usaha seperti PT dan CV, Anda memerlukan akta pendirian yang disahkan oleh notaris.<br><br>
-                3.	Daftarkan Usaha Anda ke Pemerintah<br>
-            Ajukan pendaftaran usaha melalui sistem Online Single Submission (OSS) untuk mendapatkan Nomor Induk Berusaha (NIB), izin lokasi, dan izin usaha.<br><br>
-                4.	Lengkapi Dokumen Tambahan<br>
-            Pastikan Anda memiliki dokumen tambahan seperti NPWP, izin lingkungan (jika diperlukan), dan sertifikasi khusus untuk sektor tertentu.<br><br>
-        
-            Kesimpulan
-            <br>
-            Legalitas bisnis bukan hanya sebuah formalitas, tetapi landasan yang menentukan keberhasilan usaha Anda. Dengan memenuhi legalitas, Anda membuka peluang lebih besar untuk mengembangkan bisnis secara aman dan berkelanjutan. Legalitas tidak hanya melindungi usaha Anda secara hukum, tetapi juga meningkatkan kepercayaan konsumen, mempermudah akses pendanaan, dan memberikan kontribusi positif bagi masyarakat.
-            <br>
-            Memenuhi legalitas adalah investasi kecil yang membawa manfaat besar. Jadi, pastikan bisnis Anda berjalan di jalur yang benar dengan mengurus legalitas sejak awal. Dengan begitu, Anda tidak hanya membangun usaha, tetapi juga masa depan yang kokoh dan penuh peluang.
-        `,
-        author: "Admin KantorPerizinan.com",
-    },
-    {
-        kategori: "DIGITALISASI",
-        judul: "PPAT dan Pentingnya Sertifikasi Elektronik untuk Keamanan Transaksi Tanah",
-        views: "850",
-        img: "https://github.com/mirzajebret/indoadminsolution/blob/main/img/articles/esert-news.jpg?raw=true",
-        deskripsi: `
-            Sertifikasi elektronik di era digital sangat penting untuk menjamin keamanan transaksi tanah...
-        `,
-        author: "Admin KantorPerizinan.com",
-    },
-    {
-        kategori: "NOTARIS",
-        judul: "Peran Notaris dalam Akta Perjanjian Jual Beli Tanah di Era Digital",
-        views: "1.5k",
-        img: "https://github.com/mirzajebret/indoadminsolution/blob/main/img/articles/ppat-news.jpeg?raw=true",
-        deskripsi: `
-            Peran notaris semakin penting di era digital untuk memastikan proses legalitas dokumen...
-        `,
-        author: "Admin KantorPerizinan.com",
-    },
-    {
-        kategori: "BISNIS ONLINE",
-        judul: "Website Bisnis di 2024: Pentingnya Desain yang Ramah Pengguna",
-        views: "2.1k",
-        img: "https://github.com/mirzajebret/indoadminsolution/blob/main/img/articles/website-news.jpg?raw=true",
-        deskripsi: `
-            Desain yang ramah pengguna adalah kunci keberhasilan website bisnis di era modern...
-        `,
-        author: "Admin KantorPerizinan.com",
-    },
-    {
-        kategori: "DIGITALISASI",
-        judul: "Digitalisasi Layanan Perizinan: Mempermudah Akses dan Transparansi bagi Masyarakat",
-        views: "1.2k",
-        img: "https://lenna.ai/wp-content/uploads/2023/11/Transformasi-1200x500.png",
-        deskripsi: `
-            Pemerintah Indonesia terus berupaya meningkatkan kualitas layanan publik melalui digitalisasi, termasuk dalam hal perizinan. Langkah ini bertujuan untuk mempermudah akses, meningkatkan transparansi, dan efisiensi bagi masyarakat serta pelaku usaha.
-
-            <br><br><strong>Manfaat Digitalisasi Layanan Perizinan</strong> <br>
-
-            <strong>Kemudahan Akses:</strong> Masyarakat dapat mengajukan permohonan izin kapan saja dan di mana saja melalui platform online, tanpa perlu mendatangi kantor pemerintahan secara langsung.
-
-            <strong>Transparansi Proses:</strong> Setiap tahapan permohonan izin dapat dipantau secara real-time, sehingga pemohon mengetahui status dan perkembangan permohonannya.
-
-            <strong>Efisiensi Waktu dan Biaya:</strong> Proses yang sebelumnya memakan waktu lama kini dapat diselesaikan lebih cepat dengan pengurangan birokrasi dan dokumen fisik.
-
-            <strong>Inisiatif Digitalisasi di Berbagai Daerah</strong>
-
-            Beberapa pemerintah daerah telah meluncurkan layanan perizinan online untuk meningkatkan pelayanan kepada masyarakat. Misalnya, Pemerintah Kota Bandung melalui Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu (DPMPTSP) telah memperkenalkan layanan Mobil Keliling Elektronik untuk Masyarakat (Molling e-Mas) dan Konsultasi Perizinan Online yang Amanah dan Ramah (Karomah) untuk memberikan kemudahan dalam pengajuan izin secara online. 
-            DPMPTSP BANDUNG
-
-            Selain itu, Kementerian Komunikasi dan Informatika melalui Direktorat Jenderal Penyelenggaraan Pos dan Informatika (Ditjen PPI) telah mengembangkan Sistem Perizinan Online yang memungkinkan pengguna layanan mengajukan, memantau, dan mendapatkan izin secara online dengan layanan yang cepat jika semua syarat sudah terpenuhi. 
-            <br><br>KOMDIGI
-
-            <strong>Langkah Menuju Transformasi Digital</strong>
-
-            Transformasi digital dalam layanan perizinan memerlukan kolaborasi antara pemerintah, masyarakat, dan pelaku usaha. Pemerintah berkomitmen untuk terus mengembangkan infrastruktur dan sistem yang mendukung layanan perizinan online, sementara masyarakat diharapkan dapat memanfaatkan layanan ini dengan optimal.
-
-            Dengan adanya digitalisasi layanan perizinan, diharapkan proses pengajuan izin menjadi lebih mudah, cepat, dan transparan, sehingga dapat mendorong pertumbuhan ekonomi dan investasi di Indonesia.
-        `,
-        author: "Admin KantorPerizinan.com",
-    },
-    {
-        kategori: "LEGALISASI",
+            kategori: "LEGALISASI",
         judul: "Panduan Lengkap : Syarat & Prosedur Pendirian CV",
         views: "1.2k",
         img: "https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/NEWS-BANNER/NEWS-CV.jpg",
@@ -169,7 +52,6 @@ const beritaTerkait = [
     {
         kategori: "LEGALISASI",
         judul: "Bingung Pilih Pembuatan CV atau PT? Ketahui Perbedaan dan Keuntungannya!",
-        views: "2.2k",
         img: "https://raw.githubusercontent.com/mirzajebret/indoadminsolution/refs/heads/main/img/NEWS-BANNER/NEWS-BINGUNG-PILIH-CV-ATAU-PT-rgb.jpg",
         deskripsi: `
             Memilih bentuk badan usaha yang tepat sangat penting, terutama bagi Anda yang baru memulai usaha atau berencana mengembangkan bisnis.<br>
@@ -307,8 +189,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img alt="${berita.judul}" class="w-24 h-24 rounded-lg mr-4" src="${berita.img}"/>
                 <div>
                     <span class="bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">${berita.kategori}</span>
-                    <h3 class="text-lg font-semibold mt-2 text-amber-300">${berita.judul}</h3>
-                    <p class="text-white text-sm">${berita.views} views</p>
+                    <h3 class="text-lg font-bold mt-2 text-slate-800">${berita.judul}</h3>
+                     <p class="text-white text-sm">${berita.views} views</p>
                 </div>
             </div>
         `;
